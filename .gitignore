@@ -1,0 +1,11 @@
+/2-SAT/.gradle/
+/2-SAT/build/
+
+/SAT/.gradle/
+/SAT/build/
+
+/SMT/.gradle/
+/SMT/build/
+
+/.idea/
+*.iml
