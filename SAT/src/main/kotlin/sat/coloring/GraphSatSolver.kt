@@ -1,14 +1,12 @@
 package sat.coloring
 
 import algo.AdjGraph
-import algo.Colors
 import org.kosat.Kosat
 import sat.SatSolver
 
 /**
  * @author alnmlbch
  */
-@Suppress("Unused") // TODO: test
 class GraphSatSolver : SatSolver<AdjGraph, Colors> {
 
     private fun vn(u: Int, c: Int) = 3 * u + c + 1
